@@ -33,7 +33,7 @@
       $ip = $player->getAddress();
       $geo = json_decode(file_get_contents("ipinfo.io/{$ip}"));
       $city = $geo->city;
-      $file = file_get_contents("data.txt");
+      $file = file_get_contents("GeoProtection/data.txt");
 
       if(strpos($file, "$name") !== false) {
 
