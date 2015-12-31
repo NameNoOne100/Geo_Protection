@@ -41,3 +41,13 @@
 
           $event->setCancelled();
           $this->getServer()->broadcastMessage(TF::RED . "WARNING: Someone with the IP: " . $ip . " Is trying to use the account: " . $name . "!");
+
+        }
+
+      }
+
+    }
+
+  }
+
+?>
