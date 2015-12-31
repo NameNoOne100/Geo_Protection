@@ -1,0 +1,5 @@
+name: Geo_Protection
+version: 1.0.0
+author: NameNoOne100
+api: [1.0.0]
+main: GeoProtection\Main
