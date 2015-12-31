@@ -10,8 +10,9 @@
 
   class Main extends PluginBase implements Listener {
 
-    public function onJoin() {
+    public function onEnable() {
 
+      $this->getServer()->getPluginManager()->registerEvents($this, $this);
       $fileDir = "GeoProtection/data.txt";
 
       if(!(file_exists($fileDir))) {
